@@ -10,8 +10,8 @@ const projectsData = [
     description: 'Un portafolio web personal moderno y responsivo para mostrar proyectos de desarrollo de software.',
     image: project1Image,
     tags: ['React', 'Vite', 'CSS Modules'],
-    demoUrl: '#',
-    codeUrl: '#'
+    demoUrl: 'https://github.com/SantiagoSepulvedaBlanco/SantiagoPortafolio',
+    codeUrl: 'https://github.com/SantiagoSepulvedaBlanco/SantiagoPortafolio'
   },
   {
     id: 2,

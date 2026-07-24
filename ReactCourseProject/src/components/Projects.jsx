@@ -18,7 +18,7 @@ const projectsData = [
     title: 'Salary Prediction Model',
     description: 'Un conjunto de distintos modelos de clasificación para predecir el salario aproximado que tendra una persona.',
     image: project2Image,
-    tags: ['React', 'Local Storage'],
+    tags: ['Python', 'Jupyter NoteBook'],
     demoUrl: 'https://github.com/SantiagoSepulvedaBlanco/SalaryPredictionModel',
     codeUrl: 'https://github.com/SantiagoSepulvedaBlanco/SalaryPredictionModel'
   },
@@ -27,7 +27,7 @@ const projectsData = [
     title: 'Sea Level Predictor',
     description: 'Aplicación que permite ver el nivel del mar estimado a futuro gracias a tecnicas de regresión.',
     image: project3Image,
-    tags: ['React', 'API', 'JSON'],
+    tags: ['Python'],
     demoUrl: 'https://github.com/SantiagoSepulvedaBlanco/sea-level-prediction',
     codeUrl: 'https://github.com/SantiagoSepulvedaBlanco/sea-level-prediction'
   }
@@ -43,14 +43,6 @@ export default function Projects() {
         {projects.map(project => (
           <ProjectCard key={project.id} project={project} />
         ))}
-      </div>
-      <div className="add-project-section">
-        <a href="#" className="btn btn-outline" onClick={(e) => e.preventDefault()}>
-          + Añadir Nuevo Proyecto
-        </a>
-        <p className="add-project-help">
-          Para añadir un nuevo proyecto, edita el array en <code>components/Projects.jsx</code>
-        </p>
       </div>
     </section>
   );
